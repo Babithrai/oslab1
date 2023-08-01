@@ -3,9 +3,9 @@
 int main()
 {
     int i,n,req[50],mov=0,cp;
-    printf("Enter the current position");
+    printf("Enter the current position:");
     scanf("%d",&cp);
-    printf("Enter thr number of requests");
+    printf("Enter the number of requests:");
     scanf("%d",&n);
     printf("enter the request order:");
     for(i=0;i<n;i++)
@@ -24,14 +24,15 @@ int main()
     printf("total head movement=%d\n",mov);
 
 }
-
-/*OUTPUT
-Enter thr number of requests5
-enter the request order:30
-66
+/*
+Enter the current position:50
+Enter the number of requests:7
+enter the request order:82
+170
+43
+140
 24
-75
-50
-45->30-->66-->24-->75-->50
-total head movement=169
-[1] + Done  */   
+16
+190
+50->82-->170-->43-->140-->24-->16-->190
+total head movement=642/*

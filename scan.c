@@ -68,7 +68,6 @@ int main(){
     printf("\nTotal head movement is %d",TotalHeadMoment);
     return 0;
 }
-
 /*
 
 OUTPUT:
@@ -90,7 +89,7 @@ Enter total disk size
 Enter the head movement direction for high 1 and low 0
 1
 Sequence of request access: 
-82140170190432416
+82 140 170 190 43 24 16
 Total head movement is 332
 
 */
